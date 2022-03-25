@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: L-Quiz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-22 11:11+0000\n"
+"PO-Revision-Date: 2021-09-22 11:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8.1\n"
+"X-Domain: L-Quiz"
+
+#: admin/class-L-Quiz-admin.php:139
+msgid "Ile minut ma użytkownik na wykonanie zadań?"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:145
+msgid "Możliwość wypełnienia testu kilkukrotnie?"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:154
+msgid "Pokazać wynik na końcu?"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:165
+msgid "Pozwolić wypełnic test nie zalogowanym?"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:221
+msgid "Zadania"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:325 admin/class-L-Quiz-admin.php:341
+msgid "Test"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:326
+msgid "Wszystkie testy"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:327
+msgid "Zobacz test"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:328
+msgid "Dodaj nowy test"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:329
+msgid "Dodaj test"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:330
+msgid "Edytuj Test"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:331
+msgid "Aktualizuj Test"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:332
+msgid "Szukaj Testu"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:333
+msgid "Nie znaleziono"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:334
+msgid "Nie znaleziono w koszu"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:362
+msgid "Wyniki ustawienia"
+msgstr ""
+
+#: admin/class-L-Quiz-admin.php:363
+msgid "Wyniki"
+msgstr ""
+
+#. Name of the plugin
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "L-Quiz"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin
+msgid "Daniel"
+msgstr ""

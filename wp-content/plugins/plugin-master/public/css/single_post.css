@@ -1,0 +1,236 @@
+.question_form {
+    display: none;
+    align-items: center;
+}
+
+#show-results {
+    display: none;
+}
+.after-submit{
+    display: none;
+    padding-top: 50px;
+}
+.time-left {
+    position: absolute;
+    top:50px;
+    right:20px;
+}
+#saveButton{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+.question{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.navbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+.content{
+margin-left: 10%;
+margin-right: 10%;
+    padding: 2%;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.test-title{
+    text-align: center;
+}
+
+.test-time{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.test-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-letter{
+    width: 30px;
+    line-height: unset !important;
+ padding: unset !important;
+}
+
+.question-row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 50px;
+
+}
+.word{
+    height: 45px;
+}
+
+.checkbox-question{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.checkbox-question > h6{
+    margin-bottom: 20px;
+}
+.data-question{
+    margin-right: 5px;
+}
+.data-question-second{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.question-checbox-single{
+    margin-bottom: 10px;
+}
+.image-span{
+    line-height: 50px;
+}
+
+.question-row input{
+    height:45px;
+}
+.small-letter-span{
+
+}
+.question_form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.question_form img{
+    margin-bottom: 20px;
+}
+#saveButton,
+#start-test{
+    background-color: green;
+}
+#nextButton,
+#prevButton{
+    background-color: blue;
+}
+#nextButton:hover,
+#prevButton:hover{
+    color: white;
+}
+input[type=text] {
+    border-color : #D3D3D3 !important;
+}
+
+.question-counter{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 25px;
+}
+.question-category{
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
+.form-questions nav {
+    color: #888;
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+/* The list styling*/
+.form-questions nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* style the dot */
+.form-questions nav > ul > li {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #dddddd;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.form-questions nav ul li {
+    display: inline-block;
+    list-style-type: none;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.form-questions nav > ul > li > a {
+    color: #aaa;
+    display: block;
+    line-height: 56px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+
+/* CSS triangle */
+.form-questions nav > ul > li > a > .caret {
+    border-top: 4px solid #aaa;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    vertical-align: middle;
+
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+}
+
+/* HOVER STATES*/
+.form-questions nav > ul > li:hover {
+    background-color: rgb( 40, 44, 47 );
+}
+
+.form-questions nav > ul > li:hover > a {
+    color: rgb( 255, 255, 255 );
+}
+
+.form-questions nav > ul > li:hover > a > .caret {
+    border-top-color: rgb( 255, 255, 255 );
+}
+
+.navigation-dots-ul .active-dot{
+    background-color: #505050 !important;
+}
+
+
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}

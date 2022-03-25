@@ -1,0 +1,287 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#image {
+    display: none;
+}
+
+/* CSS-only info box on hover
+ * Ken Sparby, @kensparby */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hover-container {
+    position: relative;
+}
+
+.hover-target {
+    position: relative;
+}
+
+.hover-popup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 70%;
+    left: 5%;
+    width: 50ch;
+    margin: min(1rem, 20px);
+    font-size: .8rem;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5em;
+    z-index: 42;
+    transform: scale(0);
+    transition: transform 200ms ease;
+    transform-origin: 8.2% -10px;
+}
+
+.hover-target:hover + .hover-popup,
+.hover-target:focus + .hover-popup,
+.hover-popup:hover{
+    transform: scale(1);
+}
+
+.hover-popup :not(:first-child) {
+    margin-top: 1rem;
+}
+
+.hover-popup span {
+    color: rgb(200, 20, 0);
+    font-weight: 700;
+}
+
+.hover-popup::before {
+    /* This is the triangle/arrow */
+    content: '';
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -10px;
+}
+
+.hover-popup::after {
+    /* This is merely here to expand the hoverable area, as a buffer between the "Hover me" text and the popup. */
+    content: '';
+    position: relative;
+    top: -1rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+        animation-delay: -1ms !important;
+        animation-duration: -1ms !important;
+        animation-iteration-count: 1 !important;
+        background-attachment: initial !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0s !important;
+        transition-delay: 0s !important;
+    }
+}
+.correct{
+    color: green;
+}
+
+.wrong{
+    color: red;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.image-wrapper{
+    display:none;
+}
+
+.border-accordion{
+    border: 1px solid;
+    padding-bottom: 25px;
+}
+
+.accordion-button:focus{
+    box-shadow: none !important;
+    border-color: black;
+}
+.accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: unset;
+    box-shadow: none;
+}
+.accordion-item {
+    background-color: #fff;
+     border: none;
+    padding-top: 15px;
+}
+#poststuff .stuffbox>h3, #poststuff h2, #poststuff h3.hndle {
+    font-size: 14px;
+    padding: 0px 12px;
+    margin: 0;
+    line-height: 1.4;
+}
+.accordion-body {
+    padding: 10px 10px 10px 10px;
+    margin: 0rem 0.8rem;
+    border: 1px solid;
+}
+#add-row{
+    margin-left: 12px;
+    margin-top: 20px;
+    color: black;
+    width: 48.5%;
+    border-color: black;
+}
+
+.remove-row{
+    margin-left: 12px;
+    margin-top: 20px !important;
+    border-color: red !important;
+    color: red !important;
+}
+
+.accordion-item{
+    width:100%;
+}
+
+.add-new-answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-check-input{
+    display:none;
+}
+
+.add-next-question-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timer{
+    font-width: bold;
+}
+.correct-answer-span{
+    color: blue;
+}
+
+.user-answer-span{
+    text-decoration: underline;
+    color: green;
+}
+#results {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#results td, #results th {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+#results tr:nth-child(even){background-color: #f2f2f2;}
+
+#results tr:hover {background-color: #ddd;}
+
+#results th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.tests_page_settings .column-primary{
+    width: 7%;
+}
+.user-text{
+    color: blue !important;
+}
+.issue{
+    color: red !important;
+}
+
+
+.container {
+    max-width: 700px;
+    min-height: 16em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 1em auto 0;
+}
+
+.container--tabs {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.tab {
+    min-height: 2em;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.25s;
+
+
+}
+.tab:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: background-color 0.25s;
+    color: white;
+}
+
+.content {
+    display: block;
+    padding: 3em;
+
+    text-align: center;
+}
+
+.selectteacher{
+    display: none;
+}
+
+.selectparent{
+    display:none;
+}
+.content--active {
+    display: block;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+}

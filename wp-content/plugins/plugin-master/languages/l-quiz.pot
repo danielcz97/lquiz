@@ -1,0 +1,357 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: l-quiz\n"
+"POT-Creation-Date: 2021-10-21 09:05+0200\n"
+"PO-Revision-Date: 2021-10-21 09:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lquiz.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: admin/class-lquiz-admin.php:156
+msgid "Settings"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:219
+msgid "Quests"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:237
+msgid "Insert a letter."
+msgstr ""
+
+#: admin/class-lquiz-admin.php:244
+msgid "Insert date."
+msgstr ""
+
+#: admin/class-lquiz-admin.php:251
+msgid "Insert word."
+msgstr ""
+
+#: admin/class-lquiz-admin.php:258
+msgid "Insert time."
+msgstr ""
+
+#: admin/class-lquiz-admin.php:265
+msgid "Choice correct answer."
+msgstr ""
+
+#: admin/class-lquiz-admin.php:272
+msgid "Description task."
+msgstr ""
+
+#: admin/class-lquiz-admin.php:381
+msgctxt "Post Type General Name"
+msgid "Test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:382
+msgctxt "Post Type Singular Name"
+msgid "Test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:383 admin/class-lquiz-admin.php:398
+msgid "Test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:384
+msgid "All tests"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:385
+msgid "See test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:386
+msgid "Add new test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:387
+msgid "Add test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:388
+msgid "Edit test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:389
+msgid "Update test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:390
+msgid "Search test"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:391
+msgid "Test not found"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:392
+msgid "Test not found in bin"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:417 admin/class-lquiz-admin.php:418
+msgid "Results"
+msgstr ""
+
+#: admin/class-lquiz-admin.php:442
+msgid "Questions for test"
+msgstr ""
+
+#: admin/partials/add-new-question.php:5 admin/partials/add-new-question.php:36
+#: admin/partials/questions-meta-fields.php:22
+#: admin/partials/questions-meta-fields.php:52
+#: admin/partials/questions-meta-fields.php:120
+#: admin/partials/questions-meta-fields.php:150
+#: admin/partials/results-list.php:161 admin/partials/results-page.php:12
+#: admin/repter.php:38 admin/repter.php:43 admin/repter.php:107
+#: admin/repter.php:108 admin/repter.php:160 admin/repter.php:161
+msgid "Question"
+msgstr ""
+
+#: admin/partials/add-new-question.php:12
+#: admin/partials/questions-meta-fields.php:28
+#: admin/partials/questions-meta-fields.php:126 admin/repter.php:13
+#: admin/repter.php:84 admin/repter.php:137
+msgid "Question Category"
+msgstr ""
+
+#: admin/partials/add-new-question.php:16
+#: admin/partials/questions-meta-fields.php:32
+#: admin/partials/questions-meta-fields.php:130 admin/repter.php:17
+#: admin/repter.php:87 admin/repter.php:140
+msgid "Insert a letter"
+msgstr ""
+
+#: admin/partials/add-new-question.php:19
+#: admin/partials/questions-meta-fields.php:35
+#: admin/partials/questions-meta-fields.php:133 admin/repter.php:20
+#: admin/repter.php:90 admin/repter.php:143
+msgid "Insert date"
+msgstr ""
+
+#: admin/partials/add-new-question.php:22
+#: admin/partials/questions-meta-fields.php:38
+#: admin/partials/questions-meta-fields.php:136 admin/repter.php:23
+#: admin/repter.php:93 admin/repter.php:146
+msgid "Insert word"
+msgstr ""
+
+#: admin/partials/add-new-question.php:25
+#: admin/partials/questions-meta-fields.php:41
+#: admin/partials/questions-meta-fields.php:139 admin/repter.php:26
+#: admin/repter.php:96 admin/repter.php:149
+msgid "Insert time"
+msgstr ""
+
+#: admin/partials/add-new-question.php:28
+#: admin/partials/questions-meta-fields.php:44
+#: admin/partials/questions-meta-fields.php:142 admin/repter.php:29
+#: admin/repter.php:99 admin/repter.php:152
+msgid "Choice correct answer"
+msgstr ""
+
+#: admin/partials/add-new-question.php:31
+msgid "Description task"
+msgstr ""
+
+#: admin/partials/add-new-question.php:41
+msgid "Answer\t"
+msgstr ""
+
+#: admin/partials/add-new-question.php:46
+#: admin/partials/questions-meta-fields.php:64
+#: admin/partials/questions-meta-fields.php:78
+#: admin/partials/questions-meta-fields.php:162
+#: admin/partials/questions-meta-fields.php:176
+msgid "Answer"
+msgstr ""
+
+#: admin/partials/add-new-question.php:51
+msgid "Add new answer\t"
+msgstr ""
+
+#: admin/partials/add-new-question.php:54
+msgid "Points for correct answer:"
+msgstr ""
+
+#: admin/partials/add-new-question.php:62
+#: admin/partials/questions-meta-fields.php:103
+#: admin/partials/questions-meta-fields.php:200 admin/repter.php:9
+#: admin/repter.php:79 admin/repter.php:133
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/questions-meta-fields.php:47
+#: admin/partials/questions-meta-fields.php:145 admin/repter.php:32
+#: admin/repter.php:102 admin/repter.php:155
+msgid "Descript task"
+msgstr ""
+
+#: admin/partials/questions-meta-fields.php:66
+#: admin/partials/questions-meta-fields.php:80
+#: admin/partials/questions-meta-fields.php:164
+#: admin/partials/questions-meta-fields.php:178
+msgid "X"
+msgstr ""
+
+#: admin/partials/questions-meta-fields.php:69
+#: admin/partials/questions-meta-fields.php:83
+#: admin/partials/questions-meta-fields.php:167
+#: admin/partials/questions-meta-fields.php:181 admin/repter.php:59
+#: admin/repter.php:62 admin/repter.php:121 admin/repter.php:123
+#: admin/repter.php:176 admin/repter.php:178
+msgid "Correct answers"
+msgstr ""
+
+#: admin/partials/questions-meta-fields.php:91
+#: admin/partials/questions-meta-fields.php:189
+msgid "Add new answer"
+msgstr ""
+
+#: admin/partials/questions-meta-fields.php:93
+#: admin/partials/questions-meta-fields.php:191 admin/repter.php:46
+#: admin/repter.php:111 admin/repter.php:165
+msgid "Points for correct answer"
+msgstr ""
+
+#: admin/partials/questions-meta-fields.php:97
+#: admin/partials/questions-meta-fields.php:195 admin/repter.php:66
+#: admin/repter.php:126 admin/repter.php:182
+msgid "Image"
+msgstr ""
+
+#: admin/partials/questions-meta-fields.php:212
+msgid "Add new question"
+msgstr ""
+
+#: admin/partials/results-list.php:139
+msgid "Show Results"
+msgstr ""
+
+#: admin/partials/results-list.php:147
+msgid "Remove"
+msgstr ""
+
+#: admin/partials/results-list.php:157
+msgid "Result of the Test"
+msgstr ""
+
+#: admin/partials/results-list.php:163
+msgid "User Answer/Correct Answer"
+msgstr ""
+
+#: admin/partials/results-list.php:165 admin/partials/results-list.php:223
+msgid "Points"
+msgstr ""
+
+#: admin/partials/results-list.php:233
+msgid "Percentage"
+msgstr ""
+
+#: admin/partials/results-page.php:6
+msgid "Test results"
+msgstr ""
+
+#: admin/partials/results-page.php:13
+msgid "correct answer"
+msgstr ""
+
+#: admin/partials/results-page.php:14
+msgid "wrong answer"
+msgstr ""
+
+#: admin/partials/results-page.php:26
+msgid "User:"
+msgstr ""
+
+#: admin/partials/results-page.php:29
+msgid "Points:"
+msgstr ""
+
+#: admin/partials/results-page.php:90
+msgid "Użytkownik nie wypełnił testu"
+msgstr ""
+
+#: admin/partials/settings-meta-fields.php:4
+msgid "How many minutes user have for pass this test?"
+msgstr ""
+
+#: admin/partials/settings-meta-fields.php:15
+msgid "Could user pass the test multiple times?"
+msgstr ""
+
+#: admin/partials/settings-meta-fields.php:24
+msgid "Show the score in the end?"
+msgstr ""
+
+#: admin/partials/settings-meta-fields.php:33
+msgid "Could not logged in user pass the test?"
+msgstr ""
+
+#: admin/partials/single-tests.php:22
+msgid "Start test"
+msgstr ""
+
+#: admin/partials/single-tests.php:25
+msgid "See results"
+msgstr ""
+
+#: admin/partials/single-tests.php:32
+msgid "Time left: "
+msgstr ""
+
+#: admin/partials/single-tests.php:53
+msgid "Question: "
+msgstr ""
+
+#: admin/partials/single-tests.php:110
+msgid "Previous question"
+msgstr ""
+
+#: admin/partials/single-tests.php:113
+msgid "Next question"
+msgstr ""
+
+#: admin/partials/single-tests.php:117
+msgid "Save test"
+msgstr ""
+
+#: admin/repter.php:51 admin/repter.php:55 admin/repter.php:116
+#: admin/repter.php:118 admin/repter.php:170 admin/repter.php:172
+msgid "Exercises"
+msgstr ""
+
+#: admin/repter.php:191
+msgid "Add next question"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "l-quiz"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Daniel"
+msgstr ""
